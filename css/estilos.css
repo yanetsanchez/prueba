@@ -1,0 +1,317 @@
+*{
+    margin: 0em;
+    padding: 0;
+    box-sizing:
+    -webkit-box- sizing: border-box;
+    -moz-boxsizing: border-box;
+    border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.contenedor{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* top menu */
+
+    /* menu */ 
+    .header .top_header{
+        padding: 6px 0;
+        font-size: 12px;
+        border-bottom: 1px solid #f0f0f0;
+        background: #fafafa;
+        overflow: hidden;
+    }
+
+    .header .top_header .contenedor .top_menu{
+        float: left;
+    }
+
+    .header .top_header .contenedor .top_menu ul{
+        list-style: none;
+    }
+
+    .header .top_header .contenedor .top_menu ul li{
+        float: left;
+    }
+
+    .header .top_header .contenedor .top_menu ul li a{
+        text-decoration: none;
+        color: grey;
+        padding: 10px 15px;
+        display: inline-block;
+    }
+
+    .header .top_header .contenedor .top_menu ul li a:hover{
+        color: rgb(241, 199, 121);
+    }
+
+
+    /* menu redes */
+
+    .header .top_header .contenedor .top_redes{
+        float: right;
+    }
+
+    .header .top_header .contenedor .top_redes ul{
+        list-style: none;
+    }
+
+    .header .top_header .contenedor .top_redes ul li{
+        float: left;
+    }
+
+    .header .top_header .contenedor .top_redes ul li a{
+        text-decoration: none;
+        color: grey;
+        padding: 10px 15px;
+        display: inline-block;
+    }
+
+    .header .top_header .contenedor .top_redes ul li a:hover{
+        color: rgb(241, 199, 121);
+    }
+
+
+    /* titulo principal */
+
+    .titulo_principal{
+        text-align: center;
+        margin: 35px 0;
+    }
+
+    .contenedor .titulo_principal h1 a {
+        color: rgb(241, 199, 121);
+        font-size: 60px;
+        text-decoration: none;
+        font-weight: 300;
+        display: inline-block;
+    }
+
+    .contenedor .titulo_principal h1 a:hover{
+        color: rgb(168, 159, 159);
+    }
+
+    .contenedor .titulo_principal .subtitulo{
+        font-size: 20px;
+        letter-spacing: 1px;
+        color: gray;
+    }
+
+
+    /* menu principal */
+
+    .menu_principal{
+        margin-bottom: 40px;
+        border-top: 1px solid #f0f0f0;
+        border-bottom: 1px solid #f0f0f0;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .menu_principal .contenedor ul{
+        display: inline-block;
+        list-style: none;
+        margin: 0 auto;
+    }
+
+    .menu_principal .contenedor ul li{
+        display: inline-block;
+    }
+
+    .menu_principal .contenedor ul li a{
+        text-decoration: none;
+        display: inline-block;
+        padding: 10px 20px;
+        color: #363940;
+    }
+
+    .menu_principal .contenedor ul li a:hover{
+        color: rgb(241, 199, 121) ;
+    }
+
+
+
+/* banner */
+
+.main .banner{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.main .banner .contenedor .banner_principal{
+    width: 100%;
+}
+
+.main .banner .contenedor .banner_principal img{
+    width: 100%;
+}
+
+/* articulos blog */
+
+.blog{
+    background-color: #f7f7f7;
+    padding: 40px 0;
+}
+
+.blog .contenedor{
+    overflow: hidden;
+}
+
+.blog .contenedor .articulos_blog{
+    float: left;
+    width: 68%;
+}
+
+.blog .contenedor .articulos_blog .articulo {
+    background: #fff;
+    padding: 60px 0;
+    border: 1px solid #f0f0f0;
+    margin-bottom: 20px;
+}
+
+.blog .contenedor .articulos_blog .articulo .fecha_articulo{
+    color: #c7c7c7;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blog .contenedor .articulos_blog .articulo .titulo_articulo{
+    color: #363940;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.blog .contenedor .articulos_blog .articulo .categoria_articulo{
+    color: #c9c9c9;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.blog .contenedor .articulos_blog .articulo img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.blog .contenedor .articulos_blog .articulo .texto_articulo{
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.blog .contenedor .articulos_blog .articulo p{
+    margin-bottom: 20px;
+    color: #363940;
+}
+
+.blog .contenedor .articulos_blog .articulo .boton{
+    text-align: center;
+}
+
+.blog .contenedor .articulos_blog .articulo .boton a{
+    text-decoration: none;
+    display: inline-block;
+    background: none;
+    padding: 15px 20px;
+    border: 1px solid #bababa;
+    font-size: 14px;
+    color: #7d7d7d;
+}
+
+.blog .contenedor .articulos_blog .articulo .boton a:hover{
+    background: #7d7d7d;
+    color: #fff;
+}
+
+
+/* aside */
+
+.aside{
+    float: right;
+    width: 28%;
+}
+
+.aside .widget{
+    background: #fff;
+    padding: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #f0f0f0;
+}
+
+.aside .widget .widget_autor .foto_autor{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.aside .widget .widget_autor .foto_autor img{
+    width: 120px;
+    border-radius: 50%;
+}
+
+.aside .widget .widget_autor .dato_autor{
+    text-align: center;
+}
+
+.aside .widget .widget_autor .dato_autor .nombre{
+    color: #363940;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.aside .widget .widget_autor .datos_autor .profesion{
+    color: #c9c9c9;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.aside .widget .widget_autor .datos_autor .info{
+    color: #363940;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.aside .widget .destacados_widget{
+    text-align: center;
+}
+
+.aside .widget .destacados_widget .titulo_destacados{
+    color: #363940;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.aside .widget .destacados_widget ul{
+    list-style: none;
+    border-top: 1px solid #f0f0f0;
+    text-align: left;
+}
+
+.aside .widget .destacados_widget ul li a{
+    text-decoration: none;
+    color: #363940;
+    font-size: 16px;
+    display: block;
+    padding: 20px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.aside .widget .destacados_widget ul li a:hover{
+    text-decoration: underline;
+    color: rgb(241, 199, 121);
+}
+
+.footer{
+    background: #fff;
+    padding: 40px;
+    border: 1px solid #f0f0f0;
+    text-align: center;
+    color: #c9c9c9;
+}
+
